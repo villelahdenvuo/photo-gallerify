@@ -3,4 +3,4 @@
 |-----------------------------------------------------------------------------------------|
 > Browsing boring file listings? Turn it into a nice gallery with a click of a button with Photo Gallerify!
 
-[Install now!](https://chrome.google.com/webstore/detail/photo-gallerify/liognlajafcooaeknecphpkfaafgkgna)
+[Install to Chrome now!](https://chrome.google.com/webstore/detail/photo-gallerify/liognlajafcooaeknecphpkfaafgkgna)
