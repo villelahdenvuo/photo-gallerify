@@ -6,7 +6,7 @@ var detectors = {
 		// Selector or function that scans document for elements to gallerify.
 		collector: function (items) {
 			var selection = ['jpg', 'jpeg', 'gif', 'png']
-				.map(function (e) { return 'a[href$=".' + e + '"]'; }).join(',');
+				.map(function (e) { return 'a:ext('+ e + ')'; }).join(',');
 
 			items($(selection).map(function () {
 				// Return as much metadata as possible.
@@ -19,7 +19,8 @@ var detectors = {
 		},
 		// Filter for said elements.
 		filter: function (i, o) {
-			return o.elem.href.indexOf(escape(o.elem.innerHTML.trim())) !== -1;
+			//console.log(o);
+			return o.title.length;
 		},
 		template: '<a href="{href}"><span class="title">{title}</span><img src="{href}" alt="{title}" /></a>',
 		style: [

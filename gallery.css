@@ -1,7 +1,7 @@
 section.gallerified {
 	box-sizing: border-box;
 	margin: 0;
-	padding: 10px;
+	padding: 1%;
 	width: 100%;
 	height: 100%;
 	background-color: #000;
@@ -10,22 +10,30 @@ section.gallerified {
 	z-index: 1337;
 }
 
-section.gallerified img {
+section.gallerified .item img {
 	max-width: 100%;
-	transition: box-shadow 0.2s, border-radius 0.2s;
 }
 
 section.gallerified .item {
-	max-width: 350px;
-	margin-bottom: 10px;
+	overflow: hidden;
+	border: 1px solid #000;
+	transition: border-color 0.5s;
+	width: 19%;
+	margin-bottom: 1%;
 	text-align: center;
 	display: block;
 }
 
-section.gallerified .item:hover img {
-	box-shadow: #0FF 0px 0px 20px;
+section.gallerified .item:hover {
+	border-color: #a21438;
 }
 
-section.gallerified .item:hover img {
-	border-radius: 18px;
+section.gallerified .loading {
+	text-align: center;
+	transition: opacity 1.2s;
+	margin: 20px 0;
+}
+
+section.gallerified .gutter-sizer {
+	width: 1%;
 }
