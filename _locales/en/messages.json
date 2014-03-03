@@ -1,0 +1,6 @@
+{
+"ExtensionName": {"message": "Photo Gallerify"},
+"ExtensionDesc": {"message": "A simple extension that creates a gallery from a page that contains photos."},
+
+"Gallerify": {"message": "Gallerify!"}
+}
