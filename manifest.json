@@ -24,7 +24,7 @@
     },
     "content_scripts": [
         {
-            "matches": ["http://*/*", "ftp://*/*"],
+            "matches": ["http://*/*", "ftp://*/*", "https://*/*", "file://*/*"],
             "js": [
                 "vendor/jquery.js",
                 "vendor/masonry.js",
